@@ -1,0 +1,28 @@
+{
+	"api_reader": {
+		"user": "apir",
+		"password": ".apir.",
+		"server": "10.21.24.190",
+		"database": "DV",
+		"options": {
+			"encrypt": false,
+			"trustedConnection": true,
+			"trustServerCertificate": true,
+			"enableArithAbort": true
+		},
+		"port": 1433
+	},
+	"api_writer": {
+		"user": "apiw",
+		"password": ".apiw.",
+		"server": "10.21.24.190",
+		"database": "DV",
+		"options": {
+			"encrypt": false,
+			"trustedConnection": true,
+			"trustServerCertificate": true,
+			"enableArithAbort": true
+		},
+		"port": 1433
+	}
+}

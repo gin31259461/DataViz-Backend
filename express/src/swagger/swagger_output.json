@@ -1,0 +1,46 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3080",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "API",
+      "description": "依照參數需求"
+    },
+    {
+      "name": "Class",
+      "description": "依照參數需求"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/api/GetData": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/api/PostData": {
+      "post": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/api/DeleteData": {
+      "delete": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    }
+  }
+}
